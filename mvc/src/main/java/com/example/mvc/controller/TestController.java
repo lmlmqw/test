@@ -11,7 +11,8 @@ public class TestController {
 
     @GetMapping("/add")
     public String add(){
-
+        System.out.println("进入该URL");
+		System.out.println("进入该URL");
         return "添加成功";
     }
 
