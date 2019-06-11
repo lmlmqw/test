@@ -26,6 +26,7 @@ public class AccountController {
     public void testVo(@RequestBody Username username) {
         System.out.println("进入该URL");
 		System.out.println("进入该URL");
+		System.out.println("进入该URL");
         System.out.println(username);
 
     }
